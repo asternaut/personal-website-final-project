@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="Links/favicon_sienna_design_16.png" />
+    <title>Sienna Design</title>
+  
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script> 
+
+    <script type="text/javascript">
+    
+    $(document).ready(function(){
+       
+        $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+        
+    });
+   
+    </script>
+    
+</head>    
+    
+<body>
+    <A NAME="top"></A>
+    
+    
+    <header></header>
+    
+        <!-- NAVIGATION -->
+        
+    <nav id="nav" class="active">
+            
+            <ul>
+                <li><a href="#designs">designs</a></li>
+                <li><a href="#profile">profile</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#links">links</a></li>
+            </ul>
+            <div id="navcontrol">&bull; &bull; &bull;</div>
+            
+    </nav>
+  
+    
+    <wrapper>
+        
+        <!-- DESIGNS -->
+        
+        <div id="designs">
+            <h1><a name="designs">designs</a></h1>
+            <div id="pic_container">
+                <figure class="center"><a href="about_evok.html"><img src="Links/mobile_evok.jpg" alt="evok"> </a> </figure>
+                <figure class="center"><a href="about_ru.html"><img src="Links/mobile_ru.jpg" alt="revolution united"></a></figure>
+                <figure class="center"><a href="http://astrthought.tumblr.com" target="_blank"><img src="Links/mobile_portfolio.jpg" alt="portfolio"> </a></figure>
+                <figure class="center"><a href="yours.html"><img src="Links/mobile_yours.jpg" alt="yours?"> </a></figure>
+                
+            </div>
+            
+            <div id="desktopdesigns">
+                <div id="yours">
+                    <a href="yours.html"><img src="Links/desktop_yours.jpg" alt="yours">
+                    <span class="dhover">YOURS</span></a>
+                </div>
+                <div id="evok">
+                  <a href="about_evok.html"><img src="Links/desktop_evok.jpg" alt="about evok design">
+                    <img  id="evokt" class="svghover" src="Links/evoktext.svg" alt="link to about Evok design"></a>
+                </div>
+                <div id="ru">
+                   <a href="about_ru.html"><img src="Links/desktop_ru.jpg" alt="about revolution united design">
+                    <img class="svghover" src="Links/revo.svg" alt="link to revolution united designs"></a> 
+                </div>
+                <div id="port">
+                    <a href="http://astrthought.tumblr.com" target="_blank"> <img src="Links/desktop_portfolio.jpg" alt="link to portfolio">
+                    <img class="svghover" id="portt" src="Links/porfoliotext.svg" alt="link to portfolio"></a>
+                </div>
+            </div>
+            
+            </div>
+        
+        
+        <!-- PROFILE -->
+        
+        <div id="profile">
+            <h1><a name="profile">profile</a></h1>
+            <img id="profile_pic" class="center" src="Links/mobile_profile.jpg" alt="profile picture">
+            <p>Sienna is a color. I'm also a student, activist, adventurer, and explorer. I've dedicated my life to beauty - not in a vain sense, but in a search for the wonders and goodness of the world.</p>
+            
+            <div id="iconwrap">
+                <div class="iconalign">
+                    <div class="picons"><img src="Links/creativity.svg" alt="easle icon"> <span class="ptext">creativity</span>
+                    </div>
+                    <div class="picons"><img src="Links/peopleplanet.svg" alt="earth with heart icon"><span class="ptext">people & planet</span>
+                    </div>
+                </div>
+                <div class="iconalign">
+                    <div class="picons"><img src="Links/adventure.svg" alt="backpack icon"><span class="ptext">adventure</span>
+                    </div>
+                    <div class="picons"><img src="Links/familyfriends.svg" alt="dog icon"><span class="ptext">friends & family</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="tools">
+                <div id="describe">
+                <div id="tweb" class="bubble"> HTML/CSS, JS</div>
+                <div id="tgraphic" class="bubble"> illustration, design, branding</div>
+                <div id="tarts" class="bubble">fine arts, photography</div>
+                </div>
+                <img src="Links/tools.jpg" alt="tools I use to design">
+                <span>my tools</span>
+            </div>
+            
+        </div>
+        
+        <!-- CONTACT FORM -->
+    
+        <div id="contact">
+            <h1><a name="contact">contact</a></h1>
+            
+            <form>
+                
+                 <div>
+                    <input type="text" name="name" id="name" placeholder="name" required>
+                </div>
+
+                <div>
+                    <input type="email" name="cemail" id="cemail" placeholder="email" required>
+                </div>
+                
+                <div>
+                    <label for="message" style="color: #8c8c8c;">message:</label>
+                    <br>
+                    <textarea name="message" id="message" required></textarea>
+                </div>
+
+                 <div>
+                    <input id="submit" type="submit" name="submit" value="send">
+                </div>
+                
+                <br>
+                <hr>
+                <hr>
+                <hr>
+            
+            </form>
+            
+        </div>
+        
+        <!-- LINKS -->
+        
+        <div id="links">
+            <h1><a name="links">links</a></h1>
+            <p>I don't use much social media. I prefer to live. Here's where you can find more of my work.</p>
+            
+            <div id="ilinkcontainer">
+            <a href="https://github.com/users/asternaut" target="_blank"><img class="ilinks" src="Links/GitHub-Mark-120px-plus.png" alt="link to my github"></a>
+            <a href="http://astrthought.tumblr.com" target="_blank"><img class="ilinks" src="Links/tumblr_logo_white_blue_128.png" alt="link to my tumblr portfolio"></a>
+            </div>
+        </div>
+    
+        <footer>
+        <A class="top" HREF="#top">Back To Top</A>     
+        </footer>
+        
+    </wrapper>  
+
+</body>
+</html>

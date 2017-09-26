@@ -1,0 +1,651 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Nunito:400,300);
+
+body{
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    color: #515251;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+header{
+    width: 192px;
+    height: 50px;
+    margin: 0 auto;
+    background-image: url(Links/sienna_design_logo.svg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+h1{
+    color: #8c8c8c;
+    font-size: 1.5em;
+    padding-top: 10px;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.active{
+    display:block;
+}
+
+nav{
+    margin: 0px;
+    padding: 0px;
+    background-color: #e4e5f3;
+    width: 100%;
+    height: 215px;
+}
+
+nav ul{
+    padding: 0px;
+}
+
+nav li{
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 400; 
+    font-family: "nunito";
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    margin: 0px;
+}
+
+#nav a{
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color:#515251;
+}
+
+#navcontrol{
+    margin: 0 auto;
+    width: 34px;
+    color: #71c2c6;
+}
+
+wrapper{
+    margin: 0px 5px;
+    display: block;
+}
+
+form input{
+    border: none;
+    font-family: "nunito", sans-serif;
+    font-weight: 300;
+    color:  #8c8c8c;
+    font-size: 1em;
+}
+
+form input:focus{
+    outline: none;
+    color: #515251;
+}
+
+form div{
+    padding: 5px;
+}
+
+#cemail{
+    border-top: 2px solid #e4e5f3;
+    border-bottom: 2px solid #e4e5f3;
+    width: 100%;
+    padding: 5px 0;
+}
+
+#message{
+    width: 310px;
+    border: 1px solid #e4e5f3;
+    padding: 5px;
+    border-bottom: 2px solid #e4e5f3;
+    font-family: 'nunito';
+    font-weight: 300;
+    font-size: 1em;
+    color: #8c8c8c;
+    transition: border;
+}
+
+#message:focus{
+    outline: none;
+    font-family: 'nunito';
+    font-weight: 300;
+    font-size: 1em;
+    color: #515251;
+    border: none;
+}
+
+#submit{
+    float: right;
+    background-color: #fff;
+    transition: color 0.6s;
+    color: #8c8c8c;
+}
+
+#submit:hover{
+    color: #515251;
+    font-weight: 400;
+}
+
+hr{
+    border: 1px solid #e4e5f3;
+}
+
+
+
+/* ------ CONTENT ------ */
+
+
+
+p{
+    padding-left: 10px;
+    
+}
+
+.center{
+    margin: 0 auto;
+    display: block;
+}
+
+#pic_container{
+    width: 324px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#pic_container img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#desktopdesigns{
+    display: none;
+}
+
+#profile_pic{
+    border-radius: 150px;
+    width: 40%; 
+    
+}
+
+.iconalign{
+    width: 260px;
+    height: 120px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.ptext{
+    text-align: center;
+    color: #71c2c6;
+    font-size: 1em;
+    width: 2em;
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    width: 120px;
+}
+
+.picons{
+    float: left;
+    padding-left: 10px;
+    clear: right;
+}
+
+.picons img{
+    height: 120px;
+}
+
+#tools{
+    width: 100%;
+    margin-top: 12px;
+}  
+
+#describe{
+    opacity: 0;
+    position: absolute;
+}
+        
+#tools img{
+    width: 100%;
+} 
+
+#tools span{
+    text-align: center;
+    color: #71c2c6;
+    font-weight: 700;
+}
+
+#ilinkcontainer{
+    margin: 0 auto;
+    width: 160px;
+}
+
+.ilinks{
+    float: left;
+    padding: 10px;
+    width: 60px;
+}
+
+.top{
+    color: #71c2c6;
+    text-decoration: none;
+    font-weight: 700;
+    float: right;
+    padding-bottom: 25px;
+}
+
+
+/* ------- DESKTOP -------- */
+
+
+@media screen and (min-width: 405px){
+    
+
+header{
+    background-size: 400px;
+    width: 400px;
+    height: 110px;
+    margin-top: 40px;
+}
+
+h1{
+    font-size: 3em;
+}
+    
+nav{
+    background-color: #fff;
+    height: 50px;
+        margin: 0 auto;
+    width: 400px;
+    display: block;
+    margin:;
+}
+
+nav li{
+    width: auto;
+    float: left;
+    display: block;
+    padding: 10px 10px;
+    margin: 0px;
+}
+
+#nav a{
+    opacity: 1;
+    transition: opacity 5s;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+    
+#nav a:hover{
+    opacity: 1;
+    background-image: url(Links/underline_hover.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 55px 10px;
+}
+
+#navcontrol{
+    display: none;
+}
+
+wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+p{
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+form input{
+    /*font-size: 1em;*/
+}
+
+#message{
+    width: 99%;
+}
+    
+    
+    /*-- content -- */
+    
+
+p{
+    padding-left: 5px;
+}
+    
+#pic_container{
+ display: none;        
+}
+    
+#designs{
+    float: left;
+    clear: both;
+    height: 1000px;
+}
+
+#desktopdesigns{
+    display:block;
+    position: relative;
+    width: 1000px;
+    height: 840px;
+}
+    
+#evok img{
+    position: absolute;
+    width: 550px;
+    padding: 10px;
+    clear: both;
+}
+    
+#ru img{
+    position: absolute;
+    width: 400px;
+    padding: 5px;
+    margin-top: 5px;
+    right: 0px;
+}
+
+#yours img{
+    position: absolute;
+    top: 300px;
+    left: -200px;
+    width: 1400px;
+    transition: opacity .3s;
+} 
+    
+.dhover{
+    opacity: 0;
+    font-family: "montserrat";
+    font-weight: 700;
+    font-size: 3em;
+    position: absolute;
+    top: 300px;
+    left: -200px;
+    line-height: 250px;
+    text-align: right;
+    letter-spacing: 15px;
+    transition: opacity 0.5s;
+    background-color: rgba(255, 255, 255, 0);
+    width: 1350px;
+    height: 245px;
+    padding-right: 50px;
+}
+
+.dhover:hover{
+    display: block;
+    color: #515251;
+     opacity: 1;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+    
+#port img{
+    position: absolute;
+    width: 400px;
+    padding: 5px;
+    bottom: 0;
+    right: 0px;
+}
+
+#portt{
+    right: 0;
+    bottom: 0;
+}
+    
+#evokt{
+        left: 0;
+        top: 0;
+}
+
+.svghover{
+    position: absolute;
+    margin-top: 0px;
+    padding: 0px;
+    opacity: 0;
+    transition: opacity .12s;
+}
+
+.svghover img{
+  margin:0;
+  padding 0;
+}
+
+.svghover:hover{
+    opacity: 1;
+    } 
+    
+#profile{
+    float: left;
+    height: 1400px;
+}
+
+#tools{
+    position: relative;
+    height: auto;
+    margin-top: 222px;
+}  
+
+#describe{
+    transition: opacity 1s;
+    width: 100%;
+    height: 700px;
+}
+    
+.bubble{
+   background-color: rgba(248, 255, 255, 0.78);
+    position: absolute;
+    padding: 3px 12px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.5em;     
+}
+    
+#tweb{
+    top: 70px;
+    right: 230px;
+}
+    
+#tgraphic{
+    top: 190px;
+    left: 30px;
+    width: 130px;
+}
+    
+#tarts{
+    bottom: 150px;
+    right: 30px;
+    width: 140px;
+}
+ 
+#describe:hover{
+    opacity: 1;
+}
+    
+ #tools span{
+   display: none;
+}
+    
+#profile_pic{
+    width: 150px; 
+}
+
+#iconwrap{
+    position: relative;
+    width: 540px;
+    margin: 0 auto;
+}
+    
+.iconalign{
+    float: left;
+    height: 2px;
+    width: 270px;
+}
+
+#contact{
+        float: left;
+        width: 100%;
+}
+    
+#links{
+        float: left;
+    width: 100%;
+}
+
+#ilinkcontainer{
+    width: 200px;
+}
+
+.ilinks{
+    padding: 20px;
+}
+
+
+}
+
+/*------------- SUB PAGES -----------*/
+
+.back{
+    margin: 10px;
+    float: left;
+    background-image: url(Links/arrow.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    transition: margin 0.3s;
+}
+
+.back:hover{
+    margin-left: 7px;
+}
+
+.subheadlogo{
+    margin: 0 auto;
+    display: block;
+    width: 125px;
+    padding: 20px;
+}
+
+.subheadh{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "montserrat";
+    font-weight: 700;
+    font-size: 4em;
+    color: #71c2c6;
+}
+
+#subheadtext{
+    width: 100%;
+    height: 290px;
+    border-bottom: 7px solid #71c2c6;
+}
+
+#headerimg{
+    width: 100%;
+    float: left;
+    border-bottom: 7px solid #71c2c6;
+}
+
+.headertext{
+    position: absolute;
+    width: 400px;
+}
+
+#ruht{
+    position: absolute;
+    height: 520px;
+    padding-left: 80px;
+}
+
+.bigtext{
+    font-size: 1.7em;
+}
+
+#title{
+    outline: 7px solid #e4e5f3;
+    height: 150px;
+    margin-top: 30px;
+    border-radius: 2px;
+}
+
+.duo{
+    float: left;
+    padding: 15px 25px;
+    font-family: "montserrat";
+    color: #71c2c6;
+}
+
+.duo:first-child{
+   font-size: 3em;
+    width: 30%; 
+}
+
+.duo:last-child{
+    font-size: 2em;
+    width: 59%;
+}
+
+#duties{
+   margin: 0 auto;
+    width: 800px;
+}
+
+#duties div{
+    width: 20%;
+    height: 160px;
+    float: left;
+    margin: 15px;
+    border-radius: 150px;
+    background-color: #71c2c6;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    line-height: 160px;
+}
+
+#duties div:hover{
+    border: 5px solid #71c2c6;
+}
+
+#copy{
+    width: 100%;
+    float: left;
+}
+
+#button{
+    width:100%;
+    float: left;
+    text-align: center;
+    background-color: #e4e5f3;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+#button a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #515251; 
+    font-size: 1.2em;
+    transition: color .3s;
+}
+
+#button a:hover{
+    color: #71c2c6;
+}
+
+#yourss{
+      font-family: "montserrat";
+    font-weight: 700;
+    font-size: 7em;
+    position: absolute;
+    top: 200px;
+    line-height: 250px;
+    letter-spacing: 15px;
+    transition: opacity 0.5s;
+    height: 245px;
+    padding-left: 450px;
+}
